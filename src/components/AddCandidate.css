@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.add-candidate-container {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  .add-candidate-container h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: rgb(73, 72, 72);
+  }
+  
+  .candidate-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    outline: none;
+    border: none;
+    margin-bottom: 1.3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(214, 203, 185);
+    resize: none;
+  }
+  
+  .submit-button {
+    margin: 2rem 0 1rem 0;
+    background-color: rgb(235, 37, 83);
+    border: none;
+    padding: .5rem;
+    border-radius: 2rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpapers.com/images/hd/work-background-z246qhmpgo7nw8vx.jpg'); 
+    background-size: cover  ;
+    
+}
+

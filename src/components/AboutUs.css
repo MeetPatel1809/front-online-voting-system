@@ -1,0 +1,78 @@
+.about-us-container { 
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .about-us-container img {
+    width: 70px;
+    padding: 10px;
+    border-radius: 90%;
+    background-color: #f44336;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+ 
+  
+  h1 {
+    font-size: 70px;
+    padding-top: 20px;
+    font-family: 'Fredoka One', cursive;
+  }
+  
+  p {
+    line-height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #444;
+    padding-top: 20px;
+  }
+  
+  .icon ion-icon {
+    font-size: 25px;
+    padding: 10px;
+    color: #f44336;
+    border-radius: 50%;
+    background-color: #dcd4d4ad;
+    margin: 20px 5px;
+    cursor: pointer;
+  }
+  
+  .icon ion-icon:hover {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .btn, .btn2 {
+    width: 250px;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn {
+    background-color: #f44336;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #f44336;
+  }
+  
+  .btn2 {
+    background-color: transparent;
+    border: 2px solid #f44336;
+    color: #f44336;
+  }
+  
+  .btn2:hover {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
