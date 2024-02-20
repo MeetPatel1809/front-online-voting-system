@@ -1,6 +1,6 @@
 .home-page-container {
     max-width: 1200px;
-    margin: 0 auto;
+    max-height: fit-content;
     padding: 20px;
   }
   
@@ -31,5 +31,5 @@
     border-radius: 10px;
   }
   
-  /* Add more styles as needed */
+  
   

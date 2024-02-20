@@ -1,10 +1,10 @@
 import React from 'react';
-import './HomePage.css'; // Import CSS file for styling
-//wefjoijweio
+import './HomePage.css'; 
+
 const HomePage = () => {
   return (
   
-    <div className="homee-page-container">
+    <div className="home-page-container">
       <div className="slogan-section">
         <div className="slogan">
           <h2>Vote today for a better tomorrow</h2>
@@ -43,6 +43,19 @@ Last week, perhaps in an acknowledgement of the power of the South Asian diaspor
         </div>
         <img src="https://images.theconversation.com/files/530433/original/file-20230606-29-5jf37a.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&h=503&fit=crop&dpr=1" alt="Vote" />
       </div>
+      <div className="slogan-section">
+        <div className="slogan">
+          <h2>Vote today for a better tomorrow</h2>
+          <p>This slogan encapsulates the essence of democracy, highlighting the power and responsibility each individual holds in shaping the future of their community and country. It serves as a reminder that by participating in the democratic process, through voting, individuals can contribute to positive change and improvements in society. It emphasizes the long-term implications of voting, suggesting that the choices made today can lead to a brighter and more promising tomorrow for everyone.</p>
+          <img src="https://img.etimg.com/photo/msid-107118506,imgsize-171306/NationalVotersDay2024%3AWishes.jpg" alt="Vote" />
+        </div>
+        <div className="slogan">
+          <h2>Voting gives you a chance, to make your nation advance.</h2>
+          <p>This slogan encapsulates the transformative potential of civic engagement through voting. It conveys the idea that every individual's participation in the electoral process is not just a right but also a crucial opportunity to shape the future trajectory of their nation. By casting their vote, citizens contribute to the selection of leaders and policies that can drive positive change and propel the nation forward.</p>
+          <img src="https://www.indifi.com/blog/wp-content/uploads/2022/05/Vote-In-India.jpeg" alt="Vote" />
+        </div>
+       
+      </div>  
       
     </div>
    

@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutUs.css'; // Import CSS file for styling
+import './AboutUs.css';
 
 
 const AboutUs = () => {
@@ -9,7 +9,7 @@ const AboutUs = () => {
       <h1>About Me</h1>
       <p>I help agencies & brands to turn their ideas into designs. My heart is creativity and design and my head<br/>has always been business led. Which to this day has served me very well!</p>
       <div className="icon">
-        {/* Facebook button */}
+       
         
           <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png' alt="Facebook" />
           <img src='https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_640.jpg' alt="Instagram" />

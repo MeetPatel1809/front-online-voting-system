@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './VotingSection.css'; // Import CSS file for styling
+import './VotingSection.css';
 
 const VotingSection = () => {
   const [votingInfo, setVotingInfo] = useState({
@@ -17,11 +17,8 @@ const VotingSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can perform any actions with the votingInfo here, like submitting it to a backend or displaying it.
     console.log(votingInfo);
-    // Show alert
     alert("Vote submitted successfully");
-    // Reset form after submission
     setVotingInfo({
       voterId: '',
       candidateId: ''

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AddCandidate.css'; // Import CSS file for styling
+import './AddCandidate.css'; 
 
 const AddCandidate = () => {
   const [candidateInfo, setCandidateInfo] = useState({
@@ -18,11 +18,10 @@ const AddCandidate = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can perform any actions with the candidateInfo here, like submitting it to a backend or displaying it.
     console.log(candidateInfo);
-    // Show alert
+    
     alert("Candidate added successfully");
-    // Reset form after submission
+    
     setCandidateInfo({
       name: '',
       city: '',

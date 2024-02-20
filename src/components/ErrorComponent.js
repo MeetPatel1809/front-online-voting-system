@@ -1,6 +1,5 @@
 import React from 'react';
-import './ErrorComponent.css'; // Import CSS file for styling
-
+import './ErrorComponent.css'; 
 const ErrorComponent = ({ message }) => {
   return (
     <div className="error-container">
